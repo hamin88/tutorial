@@ -1,143 +1,136 @@
-<html>
-  <pre>
-   <code>
-    Here is the comprehensive documentation compiling all the questions and answers from this thread. It is structured with headers, visual formulas, comparison tables, and code snippets for clean formatting and quick reading.
-------------------------------
-## Comprehensive Java & OOPs Concepts Documentation## 1. JDK vs. JRE vs. JVM
-
-* JDK (Java Development Kit): The full software development package used to write and compile Java applications. It physically exists on your drive and includes development utilities like javac alongside the JRE.
-* JRE (Java Runtime Environment): An installation package meant for end-users to execute Java applications. It bundles the standard Java class libraries with the JVM. It has no development tools.
-* JVM (Java Virtual Machine): An abstract computing machine created in memory when execution begins. It reads compiled .class bytecode and translates it into native hardware instructions.
-
-## Relationship Formulas
-
-* JDK = JRE + Development Tools (javac, jdb, jar, etc.)
-* JRE = JVM + Standard Class Libraries
-
-## Summary Table
-
-| Feature | JDK | JRE | JVM |
-|---|---|---|---|
-| Primary Audience | Software Developers | End Users / Deployments | The Host Operating System |
-| Core Function | Writing and compiling code | Launching & running applications | Executing compiled bytecode |
-
-------------------------------
-## 2. Core Object-Oriented Programming (OOPs) Concepts
-The four foundational pillars of OOPs are:
-
-* Encapsulation: Wrapping data (variables) and code (methods) together into a single class unit. It restricts direct access by using private variables and exposing them via public getters and setters.
-* Inheritance: The mechanism where a child class acquires the properties and behaviors of a parent class to maximize code reusability.
-* Polymorphism: The ability for a single action or method name to behave differently based on context. It occurs as compile-time (overloading) or runtime (overriding).
-* Abstraction: Hiding complex inner implementation details and showing only essential features to the user via interfaces or abstract classes.
-
-------------------------------
-## 3. Comparison: == Operator vs. equals() Method
-
-* == Operator: A binary operator that compares raw data. For primitives, it checks if values match. For objects, it checks if both variables point to the exact same memory address (reference).
-* equals() Method: A method inherited from the Object class used to compare logical content. Classes like String and Integer override it to look inside the object instead of checking memory addresses.
-
-## Java Example
-
-String str1 = new String("Hello");
-String str2 = new String("Hello");
-
-System.out.println(str1 == str2);      // false (Different memory addresses)
-System.out.println(str1.equals(str2)); // true  (Same textual content)
-
-------------------------------
-## 4. Method Overloading vs. Method Overriding
-
-* Method Overloading: Multiple methods within the same class share a name but have different parameter lists (count, type, or order). It is resolved at compile-time (Static binding).
-* Method Overriding: A child class redefines a method it inherited from its parent class using the exact same signature and return type. It is resolved at runtime (Dynamic binding).
-
-## Java Example
-
-// Overloading (Same class, different parameters)class Calculator {
-    int add(int a, int b) { return a + b; }
-    int add(int a, int b, int c) { return a + b + c; }
-}
-// Overriding (Parent and Child classes, same parameters)class Animal { void sound() { System.out.println("Animal sound"); } }class Dog extends Animal { @Override void sound() { System.out.println("Bark"); } }
-
-------------------------------
-## 5. ArrayList vs. LinkedList
-
-* ArrayList: Backed by a dynamically resizing array stored in contiguous memory. It supports instant index-based random access but requires expensive element shifting during insertions or deletions in the middle.
-* LinkedList: Backed by a doubly linked chain of nodes scattered in memory. Finding elements requires traversing the list sequentially, but inserting or deleting elements only requires changing pointer references.
-
-## Performance Index
-
-* Random Access: ArrayList takes $O(1)$ constant time; LinkedList takes $O(n)$ linear time.
-* Middle Modifications: ArrayList takes $O(n)$ time (shifting items); LinkedList takes $O(1)$ time once the node is reached.
-
-------------------------------
-## 6. The Purpose of hashCode()
-The hashCode() method generates an integer representation of an object to enable high-speed lookups in hash-based data structures like HashMap and HashSet.
-## Key Rules & The Contract
-
-* It converts $O(n)$ linear search times into near-instant $O(1)$ constant lookup times.
-* The Contract: If obj1.equals(obj2) is true, then obj1.hashCode() must return the exact same integer value.
-* Two unequal objects can share the same hash code, an occurrence known as a hash collision.
-
-------------------------------
-## 7. HashMap vs. ConcurrentHashMap
-
-* HashMap: Non-thread-safe collection designed for single-threaded environments. It uses zero synchronization to prioritize speed and accepts one null key and multiple null values.
-* ConcurrentHashMap: Fully thread-safe collection built for multi-threaded applications. It uses fine-grained, bucket-level locking so threads can write to different segments of the map simultaneously. It strictly prohibits null keys and values.
-
-------------------------------
-## 8. Java Collections Framework Hierarchy
-The Java Collections Framework provides an optimized, unified architecture to manage groups of elements.
-## Core Element Hierarchy (Collection Tree)
-
-                        ┌───────────────┐
-                        │   Iterable    │
-                        └───────┬───────┘
-                                │
-                        ┌───────▼───────┐
-                        │  Collection   │
-                        └───────┬───────┘
-        ┌───────────────────────┼───────────────────────┐
-        │                       │                       │
-┌───────▼───────┐       ┌───────▼───────┐       ┌───────▼───────┐
-│     List      │       │     Queue     │       │      Set      │
-└───────┬───────┘       └───────┬───────┘       └───────┬───────┘
-        │                       │                       │
-  • ArrayList             • PriorityQueue         • HashSet
-  • LinkedList            • ArrayDeque            • LinkedHashSet
-  • Vector                • LinkedList            • TreeSet
-
-## Key-Value Pair Hierarchy (Map Tree)
-
-                        ┌───────────────┐
-                        │      Map      │
-                        └───────┬───────┘
-                                │
-         ┌──────────────────────┴──────────────────────┐
-         │                                             │
-   • HashMap                                     • SortedMap
-   • LinkedHashMap                                     │
-   • Hashtable                                   • TreeMap
-
-------------------------------
-## 9. Checked vs. Unchecked Exceptions
-
-* Checked Exceptions: Exceptional conditions that an application must anticipate and handle (e.g., missing files). The compiler scans for these at compile-time and blocks compilation unless they are explicitly handled using a try-catch block or a throws clause. They inherit from Exception.
-* Unchecked Exceptions: Programming mistakes or runtime failures (e.g., dividing by zero, null pointer access). The compiler ignores them during build time. They inherit directly from RuntimeException.
-
-------------------------------
-## 10. Understanding Immutability
-Immutability dictates that an object's internal data state cannot be altered after it is created. Modifying an immutable object results in the system generating a brand-new object with the updated values while leaving the original unchanged.
-## Design Principles for Custom Immutable Classes
-
-   1. Declare the entire class as final so it cannot be extended or overridden.
-   2. Mark all internal variables as private and final.
-   3. Provide no setter methods.
-   4. Perform deep copying on any mutable fields inside constructors and getters to block external data manipulation.
-
-------------------------------
-If you need this document customized, let me know if you would like me to add more code examples, format it as a Markdown file snippet you can download, or add a section on a new Java topic!
-
- 
-   </code>
-  </pre>  
-</html>  
+<p>Here is the comprehensive documentation compiling all the questions and answers from this thread. It is structured with headers, visual formulas, comparison tables, and code snippets for clean formatting and quick reading.</p>
+<p>------------------------------</p>
+<p>## Comprehensive Java &amp; OOPs Concepts Documentation## 1. JDK vs. JRE vs. JVM</p>
+<p><br></p>
+<p>* JDK (Java Development Kit): The full software development package used to write and compile Java applications. It physically exists on your drive and includes development utilities like javac alongside the JRE.</p>
+<p>* JRE (Java Runtime Environment): An installation package meant for end-users to execute Java applications. It bundles the standard Java class libraries with the JVM. It has no development tools.</p>
+<p>* JVM (Java Virtual Machine): An abstract computing machine created in memory when execution begins. It reads compiled .class bytecode and translates it into native hardware instructions.</p>
+<p><br></p>
+<p>## Relationship Formulas</p>
+<p><br></p>
+<p>* JDK = JRE + Development Tools (javac, jdb, jar, etc.)</p>
+<p>* JRE = JVM + Standard Class Libraries</p>
+<p><br></p>
+<p>## Summary Table</p>
+<p><br></p>
+<p>| Feature | JDK | JRE | JVM |</p>
+<p>|---|---|---|---|</p>
+<p>| Primary Audience | Software Developers | End Users / Deployments | The Host Operating System |</p>
+<p>| Core Function | Writing and compiling code | Launching &amp; running applications | Executing compiled bytecode |</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 2. Core Object-Oriented Programming (OOPs) Concepts</p>
+<p>The four foundational pillars of OOPs are:</p>
+<p><br></p>
+<p>* Encapsulation: Wrapping data (variables) and code (methods) together into a single class unit. It restricts direct access by using private variables and exposing them via public getters and setters.</p>
+<p>* Inheritance: The mechanism where a child class acquires the properties and behaviors of a parent class to maximize code reusability.</p>
+<p>* Polymorphism: The ability for a single action or method name to behave differently based on context. It occurs as compile-time (overloading) or runtime (overriding).</p>
+<p>* Abstraction: Hiding complex inner implementation details and showing only essential features to the user via interfaces or abstract classes.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 3. Comparison: == Operator vs. equals() Method</p>
+<p><br></p>
+<p>* == Operator: A binary operator that compares raw data. For primitives, it checks if values match. For objects, it checks if both variables point to the exact same memory address (reference).</p>
+<p>* equals() Method: A method inherited from the Object class used to compare logical content. Classes like String and Integer override it to look inside the object instead of checking memory addresses.</p>
+<p><br></p>
+<p>## Java Example</p>
+<p><br></p>
+<p>String str1 = new String(&quot;Hello&quot;);</p>
+<p>String str2 = new String(&quot;Hello&quot;);</p>
+<p><br></p>
+<p>System.out.println(str1 == str2); &nbsp; &nbsp; &nbsp;// false (Different memory addresses)</p>
+<p>System.out.println(str1.equals(str2)); // true &nbsp;(Same textual content)</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 4. Method Overloading vs. Method Overriding</p>
+<p><br></p>
+<p>* Method Overloading: Multiple methods within the same class share a name but have different parameter lists (count, type, or order). It is resolved at compile-time (Static binding).</p>
+<p>* Method Overriding: A child class redefines a method it inherited from its parent class using the exact same signature and return type. It is resolved at runtime (Dynamic binding).</p>
+<p><br></p>
+<p>## Java Example</p>
+<p><br></p>
+<p>// Overloading (Same class, different parameters)class Calculator {</p>
+<p>&nbsp; &nbsp; int add(int a, int b) { return a + b; }</p>
+<p>&nbsp; &nbsp; int add(int a, int b, int c) { return a + b + c; }</p>
+<p>}</p>
+<p>// Overriding (Parent and Child classes, same parameters)class Animal { void sound() { System.out.println(&quot;Animal sound&quot;); } }class Dog extends Animal { @Override void sound() { System.out.println(&quot;Bark&quot;); } }</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 5. ArrayList vs. LinkedList</p>
+<p><br></p>
+<p>* ArrayList: Backed by a dynamically resizing array stored in contiguous memory. It supports instant index-based random access but requires expensive element shifting during insertions or deletions in the middle.</p>
+<p>* LinkedList: Backed by a doubly linked chain of nodes scattered in memory. Finding elements requires traversing the list sequentially, but inserting or deleting elements only requires changing pointer references.</p>
+<p><br></p>
+<p>## Performance Index</p>
+<p><br></p>
+<p>* Random Access: ArrayList takes $O(1)$ constant time; LinkedList takes $O(n)$ linear time.</p>
+<p>* Middle Modifications: ArrayList takes $O(n)$ time (shifting items); LinkedList takes $O(1)$ time once the node is reached.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 6. The Purpose of hashCode()</p>
+<p>The hashCode() method generates an integer representation of an object to enable high-speed lookups in hash-based data structures like HashMap and HashSet.</p>
+<p>## Key Rules &amp; The Contract</p>
+<p><br></p>
+<p>* It converts $O(n)$ linear search times into near-instant $O(1)$ constant lookup times.</p>
+<p>* The Contract: If obj1.equals(obj2) is true, then obj1.hashCode() must return the exact same integer value.</p>
+<p>* Two unequal objects can share the same hash code, an occurrence known as a hash collision.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 7. HashMap vs. ConcurrentHashMap</p>
+<p><br></p>
+<p>* HashMap: Non-thread-safe collection designed for single-threaded environments. It uses zero synchronization to prioritize speed and accepts one null key and multiple null values.</p>
+<p>* ConcurrentHashMap: Fully thread-safe collection built for multi-threaded applications. It uses fine-grained, bucket-level locking so threads can write to different segments of the map simultaneously. It strictly prohibits null keys and values.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 8. Java Collections Framework Hierarchy</p>
+<p>The Java Collections Framework provides an optimized, unified architecture to manage groups of elements.</p>
+<p>## Core Element Hierarchy (Collection Tree)</p>
+<p><br></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ┌───────────────┐</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; Iterable &nbsp; &nbsp;│</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └───────┬───────┘</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ┌───────▼───────┐</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp;Collection &nbsp; │</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └───────┬───────┘</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; ┌───────────────────────┼───────────────────────┐</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>┌───────▼───────┐ &nbsp; &nbsp; &nbsp; ┌───────▼───────┐ &nbsp; &nbsp; &nbsp; ┌───────▼───────┐</p>
+<p>│ &nbsp; &nbsp; List &nbsp; &nbsp; &nbsp;│ &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; Queue &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp;Set &nbsp; &nbsp; &nbsp;│</p>
+<p>└───────┬───────┘ &nbsp; &nbsp; &nbsp; └───────┬───────┘ &nbsp; &nbsp; &nbsp; └───────┬───────┘</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>&nbsp; &bull; ArrayList &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &bull; PriorityQueue &nbsp; &nbsp; &nbsp; &nbsp; &bull; HashSet</p>
+<p>&nbsp; &bull; LinkedList &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&bull; ArrayDeque &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&bull; LinkedHashSet</p>
+<p>&nbsp; &bull; Vector &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&bull; LinkedList &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&bull; TreeSet</p>
+<p><br></p>
+<p>## Key-Value Pair Hierarchy (Map Tree)</p>
+<p><br></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ┌───────────────┐</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │ &nbsp; &nbsp; &nbsp;Map &nbsp; &nbsp; &nbsp;│</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; └───────┬───────┘</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;┌──────────────────────┴──────────────────────┐</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;│ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>&nbsp; &nbsp;&bull; HashMap &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &bull; SortedMap</p>
+<p>&nbsp; &nbsp;&bull; LinkedHashMap &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │</p>
+<p>&nbsp; &nbsp;&bull; Hashtable &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &bull; TreeMap</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 9. Checked vs. Unchecked Exceptions</p>
+<p><br></p>
+<p>* Checked Exceptions: Exceptional conditions that an application must anticipate and handle (e.g., missing files). The compiler scans for these at compile-time and blocks compilation unless they are explicitly handled using a try-catch block or a throws clause. They inherit from Exception.</p>
+<p>* Unchecked Exceptions: Programming mistakes or runtime failures (e.g., dividing by zero, null pointer access). The compiler ignores them during build time. They inherit directly from RuntimeException.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>## 10. Understanding Immutability</p>
+<p>Immutability dictates that an object&apos;s internal data state cannot be altered after it is created. Modifying an immutable object results in the system generating a brand-new object with the updated values while leaving the original unchanged.</p>
+<p>## Design Principles for Custom Immutable Classes</p>
+<p><br></p>
+<p>&nbsp; &nbsp;1. Declare the entire class as final so it cannot be extended or overridden.</p>
+<p>&nbsp; &nbsp;2. Mark all internal variables as private and final.</p>
+<p>&nbsp; &nbsp;3. Provide no setter methods.</p>
+<p>&nbsp; &nbsp;4. Perform deep copying on any mutable fields inside constructors and getters to block external data manipulation.</p>
+<p><br></p>
+<p>------------------------------</p>
+<p>If you need this document customized, let me know if you would like me to add more code examples, format it as a Markdown file snippet you can download, or add a section on a new Java topic!</p>
+<p><br></p>

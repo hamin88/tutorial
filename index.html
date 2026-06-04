@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Full Stack Interview Prep</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Interview prep navigation">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">IP</div>
+        <div>
+          <p>Interview Prep</p>
+          <span>Full stack developer track</span>
+        </div>
+      </div>
+
+      <nav class="topic-nav" id="topicNav" aria-label="Topics"></nav>
+
+      <div class="study-card">
+        <span class="small-label">Today's focus</span>
+        <strong id="focusTopic">Core Java</strong>
+        <p id="focusMeta">0 questions completed</p>
+      </div>
+    </aside>
+
+    <main class="app-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <span class="small-label">8-15 year enterprise interview track</span>
+          <h1>Practice full stack interview questions with structure, focus, and momentum.</h1>
+          <p>
+            Java, Spring Boot, AWS, PostgreSQL, React, Snowflake, CI/CD, GitHub Actions,
+            Keycloak, system design, and scenario-based troubleshooting.
+          </p>
+        </div>
+        <div class="prep-map" aria-label="Interview prep coverage map">
+          <div class="map-node java">Java</div>
+          <div class="map-node cloud">AWS</div>
+          <div class="map-node db">PostgreSQL</div>
+          <div class="map-node ui">React</div>
+          <div class="map-node auth">Keycloak</div>
+          <div class="map-node data">Snowflake</div>
+          <div class="map-core">Full Stack</div>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Practice controls">
+        <label class="search-box">
+          <span>Search questions</span>
+          <input id="searchInput" type="search" placeholder="Search Java, AWS, deadlocks..." />
+        </label>
+
+        <div class="segmented" role="group" aria-label="Difficulty filter">
+          <button class="active" type="button" data-level="All">All</button>
+          <button type="button" data-level="Beginner">Beginner</button>
+          <button type="button" data-level="Intermediate">Intermediate</button>
+          <button type="button" data-level="Advanced">Advanced</button>
+        </div>
+
+        <button class="ghost-button" id="resetProgress" type="button">Reset progress</button>
+      </section>
+
+      <section class="stats-grid" aria-label="Preparation statistics">
+        <article>
+          <span>Total questions</span>
+          <strong id="totalQuestions">0</strong>
+        </article>
+        <article>
+          <span>Visible now</span>
+          <strong id="visibleQuestions">0</strong>
+        </article>
+        <article>
+          <span>Completed</span>
+          <strong id="completedQuestions">0</strong>
+        </article>
+        <article>
+          <span>Coverage</span>
+          <strong id="coveragePercent">0%</strong>
+        </article>
+      </section>
+
+      <section class="practice-layout">
+        <div class="question-panel">
+          <div class="section-heading">
+            <div>
+              <span class="small-label" id="activeLevelLabel">All levels</span>
+              <h2 id="activeTopicTitle">Core Java</h2>
+            </div>
+            <button class="primary-button" id="randomQuestion" type="button">Practice random</button>
+          </div>
+          <div class="question-list" id="questionList"></div>
+        </div>
+
+        <aside class="flashcard" aria-label="Flashcard practice">
+          <span class="small-label">Flashcard</span>
+          <h2 id="flashTopic">Core Java</h2>
+          <p id="flashQuestion">Pick a topic or press Practice random.</p>
+          <div class="flash-actions">
+            <button class="primary-button" id="markFlashDone" type="button">Mark done</button>
+            <button class="ghost-button" id="nextFlash" type="button">Next</button>
+          </div>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

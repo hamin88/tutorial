@@ -9,10 +9,19 @@ public class SortEmployeesBySalaryDescending {
                 new Employee("Charlie", 55000)
         );
 
+        // Option 1: Using a custom comparator with streams
         List<Employee> sortedEmployees = employees.stream()
                 .sorted((e1, e2) -> Double.compare(e2.salary(), e1.salary()))
                 .collect(Collectors.toList());
-
         sortedEmployees.forEach(e -> System.out.println(e.name() + ": " + e.salary()));
+
+        // Option 2: Using Comparator.comparing with reversed()
+        List<Employee> sortedEmployees2 = employees.stream()
+                .sorted(Comparator.comparing(Employee::salary).
+                        thenComparing(Employee::name)
+                        .reversed())
+                .toList();
+        sortedEmployees2.forEach(e -> System.out.println(e.name() + ": " + e.salary()));
+
     }
 }

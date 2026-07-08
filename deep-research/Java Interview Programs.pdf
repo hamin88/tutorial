@@ -1,0 +1,1970 @@
+%PDF-1.6
+%ˆ‰¸ﬂ
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Metadata 79 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 5250
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 10 Tf 12 TL ET
+BT /F3 16 Tf 19.2 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (Java Interview Programs: Basic to Advanced \(With Code\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 42.51969 765.1969 Tm (Prepared collection of Java programs covering syntax, control flow, patterns, arrays & strings, OOP, exception) Tj T* ET
+BT 1 0 0 1 42.51969 754.1969 Tm (s & files, collections, algorithms, multithreading, Java 8 features, and mini system design demos. Each sectio) Tj T* ET
+BT 1 0 0 1 42.51969 743.1969 Tm (n includes concise, runnable code snippets \(single-file examples\).) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 722.1969 Tm (Hello World program) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 708.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 697.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 686.1969 Tm (        System.out.println\("Hello, World!"\);) Tj T* ET
+BT 1 0 0 1 42.51969 675.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 664.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 647.1969 Tm (Sum of two numbers) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 633.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (        Scanner sc = new Scanner\(System.in\);) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (        int a = sc.nextInt\(\), b = sc.nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (        System.out.println\(a + b\);) Tj T* ET
+BT 1 0 0 1 42.51969 567.1969 Tm (        sc.close\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 556.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 545.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 528.1969 Tm (Check even or odd) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 514.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 503.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 470.1969 Tm (        System.out.println\(n % 2 == 0 ? "Even" : "Odd"\);) Tj T* ET
+BT 1 0 0 1 42.51969 459.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 448.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 431.1969 Tm (Largest of two numbers) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 417.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 395.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 384.1969 Tm (        Scanner sc = new Scanner\(System.in\);) Tj T* ET
+BT 1 0 0 1 42.51969 373.1969 Tm (        int a = sc.nextInt\(\), b = sc.nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 362.1969 Tm (        System.out.println\(a > b ? a : b\);) Tj T* ET
+BT 1 0 0 1 42.51969 351.1969 Tm (        sc.close\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 340.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 329.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 312.1969 Tm (Largest of three numbers) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 298.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 276.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 265.1969 Tm (        Scanner sc = new Scanner\(System.in\);) Tj T* ET
+BT 1 0 0 1 42.51969 254.1969 Tm (        int a = sc.nextInt\(\), b = sc.nextInt\(\), c = sc.nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 243.1969 Tm (        int max = a;) Tj T* ET
+BT 1 0 0 1 42.51969 232.1969 Tm (        if\(b > max\) max = b;) Tj T* ET
+BT 1 0 0 1 42.51969 221.1969 Tm (        if\(c > max\) max = c;) Tj T* ET
+BT 1 0 0 1 42.51969 210.1969 Tm (        System.out.println\(max\);) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (        sc.close\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 160.1969 Tm (Positive, Negative, or Zero check) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 146.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 135.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 124.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 113.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 102.1969 Tm (        if\(n > 0\) System.out.println\("Positive"\);) Tj T* ET
+BT 1 0 0 1 42.51969 91.19685 Tm (        else if\(n < 0\) System.out.println\("Negative"\);) Tj T* ET
+BT 1 0 0 1 42.51969 80.19685 Tm (        else System.out.println\("Zero"\);) Tj T* ET
+BT 1 0 0 1 42.51969 69.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 58.19685 Tm (}) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+12 0 obj
+<<
+/Length 5193
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (Leap year check) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 771.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 760.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 749.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 738.1969 Tm (        int y = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 727.1969 Tm (        boolean leap = \(y % 400 == 0\) || \(y % 4 == 0 && y % 100 != 0\);) Tj T* ET
+BT 1 0 0 1 42.51969 716.1969 Tm (        System.out.println\(leap ? "Leap Year" : "Not Leap Year"\);) Tj T* ET
+BT 1 0 0 1 42.51969 705.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 694.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 677.1969 Tm (Swap two numbers \(with and without third variable\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 663.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 652.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 641.1969 Tm (        int a = 10, b = 20;) Tj T* ET
+BT 1 0 0 1 42.51969 630.1969 Tm (        // With third variable) Tj T* ET
+BT 1 0 0 1 42.51969 619.1969 Tm (        int temp = a; a = b; b = temp;) Tj T* ET
+BT 1 0 0 1 42.51969 608.1969 Tm (        System.out.println\(a + " " + b\);) Tj T* ET
+BT 1 0 0 1 42.51969 597.1969 Tm (        // Without third variable \(XOR\)) Tj T* ET
+BT 1 0 0 1 42.51969 586.1969 Tm (        a = 10; b = 20;) Tj T* ET
+BT 1 0 0 1 42.51969 575.1969 Tm (        a ^= b; b ^= a; a ^= b;) Tj T* ET
+BT 1 0 0 1 42.51969 564.1969 Tm (        System.out.println\(a + " " + b\);) Tj T* ET
+BT 1 0 0 1 42.51969 553.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 542.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 525.1969 Tm (Factorial of a number \(iterative\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 511.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 500.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 489.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 478.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 467.1969 Tm (        long fact = 1;) Tj T* ET
+BT 1 0 0 1 42.51969 456.1969 Tm (        for\(int i=2;i<=n;i++\) fact *= i;) Tj T* ET
+BT 1 0 0 1 42.51969 445.1969 Tm (        System.out.println\(fact\);) Tj T* ET
+BT 1 0 0 1 42.51969 434.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 423.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 406.1969 Tm (Fibonacci series \(first N\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 392.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 381.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 370.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 359.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 348.1969 Tm (        long a=0,b=1;) Tj T* ET
+BT 1 0 0 1 42.51969 337.1969 Tm (        for\(int i=0;i<n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 326.1969 Tm (            System.out.print\(a + \(i<n-1?" ":""\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 315.1969 Tm (            long c=a+b; a=b; b=c;) Tj T* ET
+BT 1 0 0 1 42.51969 304.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 293.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 282.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 265.1969 Tm (Reverse a number) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 251.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 240.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 229.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 218.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 207.1969 Tm (        int rev = 0;) Tj T* ET
+BT 1 0 0 1 42.51969 196.1969 Tm (        while\(n!=0\){ rev = rev*10 + n%10; n/=10; }) Tj T* ET
+BT 1 0 0 1 42.51969 185.1969 Tm (        System.out.println\(rev\);) Tj T* ET
+BT 1 0 0 1 42.51969 174.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 163.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 146.1969 Tm (Palindrome number check) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 132.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 121.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 110.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 99.19685 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 88.19685 Tm (        int t = n, rev = 0;) Tj T* ET
+BT 1 0 0 1 42.51969 77.19685 Tm (        while\(n!=0\){ rev = rev*10 + n%10; n/=10; }) Tj T* ET
+BT 1 0 0 1 42.51969 66.19685 Tm (        System.out.println\(t==rev ? "Palindrome" : "Not Palindrome"\);) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+16 0 obj
+<<
+/Length 5184
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 757.1969 Tm (Armstrong number check \(3-digit\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 743.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 732.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 721.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 710.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (        int t = n, sum=0;) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (        while\(t!=0\){ int d=t%10; sum += d*d*d; t/=10; }) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        System.out.println\(sum==n ? "Armstrong" : "Not Armstrong"\);) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 638.1969 Tm (Prime number check) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 624.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 613.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 602.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 591.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 580.1969 Tm (        if\(n<2\){ System.out.println\("Not Prime"\); return; }) Tj T* ET
+BT 1 0 0 1 42.51969 569.1969 Tm (        for\(int i=2;i*i<=n;i++\) if\(n%i==0\){ System.out.println\("Not Prime"\); return; }) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (        System.out.println\("Prime"\);) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 519.1969 Tm (Print all prime numbers between 1 to N) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 505.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 494.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 483.1969 Tm (    static boolean isPrime\(int n\){) Tj T* ET
+BT 1 0 0 1 42.51969 472.1969 Tm (        if\(n<2\) return false;) Tj T* ET
+BT 1 0 0 1 42.51969 461.1969 Tm (        for\(int i=2;i*i<=n;i++\) if\(n%i==0\) return false;) Tj T* ET
+BT 1 0 0 1 42.51969 450.1969 Tm (        return true;) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (        for\(int i=2;i<=n;i++\) if\(isPrime\(i\)\) System.out.print\(i + " "\);) Tj T* ET
+BT 1 0 0 1 42.51969 395.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 384.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 367.1969 Tm (Table of a number \(multiplication table\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 353.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 342.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 331.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 320.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 309.1969 Tm (        for\(int i=1;i<=10;i++\) System.out.println\(n + " x " + i + " = " + \(n*i\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 298.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 270.1969 Tm (Sum of digits of a number) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 256.1969 Tm (import java.util.Scanner;) Tj T* ET
+BT 1 0 0 1 42.51969 245.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 234.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 223.1969 Tm (        int n = new java.util.Scanner\(System.in\).nextInt\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 212.1969 Tm (        int sum=0; while\(n!=0\){ sum+=n%10; n/=10; }) Tj T* ET
+BT 1 0 0 1 42.51969 201.1969 Tm (        System.out.println\(sum\);) Tj T* ET
+BT 1 0 0 1 42.51969 190.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 179.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 162.1969 Tm (Print numbers 1 to 100 without loop \(using recursion\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 148.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 137.1969 Tm (    static void print\(int i\){) Tj T* ET
+BT 1 0 0 1 42.51969 126.1969 Tm (        if\(i>100\) return;) Tj T* ET
+BT 1 0 0 1 42.51969 115.1969 Tm (        System.out.println\(i\);) Tj T* ET
+BT 1 0 0 1 42.51969 104.1969 Tm (        print\(i+1\);) Tj T* ET
+BT 1 0 0 1 42.51969 93.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 82.19685 Tm (    public static void main\(String[] args\) { print\(1\); }) Tj T* ET
+BT 1 0 0 1 42.51969 71.19685 Tm (}) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+20 0 obj
+<<
+/Length 4943
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (Square pattern \(****\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 771.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 760.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 749.1969 Tm (        int n=4;) Tj T* ET
+BT 1 0 0 1 42.51969 738.1969 Tm (        for\(int i=0;i<n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 727.1969 Tm (            for\(int j=0;j<n;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 716.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 705.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 694.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 683.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 666.1969 Tm (Right triangle pattern) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 652.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 641.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 630.1969 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 619.1969 Tm (        for\(int i=1;i<=n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 608.1969 Tm (            for\(int j=1;j<=i;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 597.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 586.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 575.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 564.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 547.1969 Tm (Inverted triangle pattern) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 533.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 522.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 511.1969 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 500.1969 Tm (        for\(int i=n;i>=1;i--\){) Tj T* ET
+BT 1 0 0 1 42.51969 489.1969 Tm (            for\(int j=1;j<=i;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 478.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 467.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 456.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 445.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 428.1969 Tm (Pyramid pattern) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 414.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 403.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 392.1969 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 381.1969 Tm (        for\(int i=1;i<=n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 370.1969 Tm (            for\(int s=1;s<=n-i;s++\) System.out.print\(" "\);) Tj T* ET
+BT 1 0 0 1 42.51969 359.1969 Tm (            for\(int j=1;j<=2*i-1;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 348.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 337.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 326.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 315.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 298.1969 Tm (Diamond pattern) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 284.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 273.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 262.1969 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 251.1969 Tm (        for\(int i=1;i<=n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 240.1969 Tm (            for\(int s=1;s<=n-i;s++\) System.out.print\(" "\);) Tj T* ET
+BT 1 0 0 1 42.51969 229.1969 Tm (            for\(int j=1;j<=2*i-1;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 218.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 207.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 196.1969 Tm (        for\(int i=n-1;i>=1;i--\){) Tj T* ET
+BT 1 0 0 1 42.51969 185.1969 Tm (            for\(int s=1;s<=n-i;s++\) System.out.print\(" "\);) Tj T* ET
+BT 1 0 0 1 42.51969 174.1969 Tm (            for\(int j=1;j<=2*i-1;j++\) System.out.print\("*"\);) Tj T* ET
+BT 1 0 0 1 42.51969 163.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 152.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 141.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 130.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 113.1969 Tm (Number pattern \(1, 12, 123, ...\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 99.19685 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 88.19685 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 77.19685 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 66.19685 Tm (        for\(int i=1;i<=n;i++\){) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/Length 5167
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (            for\(int j=1;j<=i;j++\) System.out.print\(j\);) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 724.1969 Tm (Alphabet pattern \(A, AB, ABC, ...\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 710.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (        int n=5;) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        for\(int i=1;i<=n;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (            for\(char c='A'; c<'A'+i; c++\) System.out.print\(c\);) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 605.1969 Tm (Find largest and smallest element in an array) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 591.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 580.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 569.1969 Tm (        int[] a = {5, 2, 9, -1, 7};) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (        int min=a[0], max=a[0];) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (        for\(int v: a\){ if\(v<min\) min=v; if\(v>max\) max=v; }) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (        System.out.println\("Min="+min+", Max="+max\);) Tj T* ET
+BT 1 0 0 1 42.51969 525.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 514.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 497.1969 Tm (Reverse an array) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 483.1969 Tm (import java.util.Arrays;) Tj T* ET
+BT 1 0 0 1 42.51969 472.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 461.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 450.1969 Tm (        int[] a = {1,2,3,4,5};) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (        for\(int i=0,j=a.length-1;i<j;i++,j--\){) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (            int t=a[i]; a[i]=a[j]; a[j]=t;) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (        System.out.println\(Arrays.toString\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 395.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 384.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 367.1969 Tm (Sort an array \(ascending/descending\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 353.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 342.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 331.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 320.1969 Tm (        Integer[] a = {5,1,4,2,3};) Tj T* ET
+BT 1 0 0 1 42.51969 309.1969 Tm (        Arrays.sort\(a\); // ascending) Tj T* ET
+BT 1 0 0 1 42.51969 298.1969 Tm (        System.out.println\(java.util.Arrays.toString\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (        Arrays.sort\(a, java.util.Collections.reverseOrder\(\)\); // descending) Tj T* ET
+BT 1 0 0 1 42.51969 276.1969 Tm (        System.out.println\(java.util.Arrays.toString\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 265.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 254.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 237.1969 Tm (Find duplicate elements in an array) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 223.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 212.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 201.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 190.1969 Tm (        int[] a = {1,2,3,1,2,4,5};) Tj T* ET
+BT 1 0 0 1 42.51969 179.1969 Tm (        java.util.Set<Integer> seen = new java.util.HashSet<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 168.1969 Tm (        java.util.Set<Integer> dup = new java.util.HashSet<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 157.1969 Tm (        for\(int v: a\) if\(!seen.add\(v\)\) dup.add\(v\);) Tj T* ET
+BT 1 0 0 1 42.51969 146.1969 Tm (        System.out.println\(dup\);) Tj T* ET
+BT 1 0 0 1 42.51969 135.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 124.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 107.1969 Tm (Find missing number in array \(1 to N\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 93.19685 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 82.19685 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 71.19685 Tm (        int[] a = {1,2,4,5};) Tj T* ET
+BT 1 0 0 1 42.51969 60.19685 Tm (        int n = 5;) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+28 0 obj
+<<
+/Length 5321
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (        int sum = n*\(n+1\)/2;) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (        int s = 0; for\(int v: a\) s+=v;) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (        System.out.println\(sum - s\);) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 724.1969 Tm (Find second largest element in an array) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 710.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (        int[] a = {5,1,9,2,9,7};) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        Integer first=null, second=null;) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (        for\(int v: a\){) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (            if\(first==null || v>first\){ second=first; first=v; }) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (            else if\(v!=first && \(second==null || v>second\)\) second=v;) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (        System.out.println\(second\);) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 583.1969 Tm (Matrix addition, subtraction, multiplication) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 569.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (        int[][] A={{1,2},{3,4}};) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (        int[][] B={{5,6},{7,8}};) Tj T* ET
+BT 1 0 0 1 42.51969 525.1969 Tm (        int n=2;) Tj T* ET
+BT 1 0 0 1 42.51969 514.1969 Tm (        int[][] add=new int[n][n], sub=new int[n][n], mul=new int[n][n];) Tj T* ET
+BT 1 0 0 1 42.51969 503.1969 Tm (        for\(int i=0;i<n;i++\) for\(int j=0;j<n;j++\){) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (            add[i][j]=A[i][j]+B[i][j];) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (            sub[i][j]=A[i][j]-B[i][j];) Tj T* ET
+BT 1 0 0 1 42.51969 470.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 459.1969 Tm (        for\(int i=0;i<n;i++\) for\(int j=0;j<n;j++\)) Tj T* ET
+BT 1 0 0 1 42.51969 448.1969 Tm (            for\(int k=0;k<n;k++\) mul[i][j]+=A[i][k]*B[k][j];) Tj T* ET
+BT 1 0 0 1 42.51969 437.1969 Tm (        // Print one result as example) Tj T* ET
+BT 1 0 0 1 42.51969 426.1969 Tm (        for\(int[] r: mul\){) Tj T* ET
+BT 1 0 0 1 42.51969 415.1969 Tm (            for\(int v: r\) System.out.print\(v + " "\);) Tj T* ET
+BT 1 0 0 1 42.51969 404.1969 Tm (            System.out.println\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 393.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 382.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 371.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 354.1969 Tm (Transpose of a matrix) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 340.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 329.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 318.1969 Tm (        int[][] A={{1,2,3},{4,5,6}};) Tj T* ET
+BT 1 0 0 1 42.51969 307.1969 Tm (        int r=A.length, c=A[0].length;) Tj T* ET
+BT 1 0 0 1 42.51969 296.1969 Tm (        int[][] T=new int[c][r];) Tj T* ET
+BT 1 0 0 1 42.51969 285.1969 Tm (        for\(int i=0;i<r;i++\) for\(int j=0;j<c;j++\) T[j][i]=A[i][j];) Tj T* ET
+BT 1 0 0 1 42.51969 274.1969 Tm (        for\(int[] row: T\){ for\(int v: row\) System.out.print\(v + " "\); System.out.println\(\); }) Tj T* ET
+BT 1 0 0 1 42.51969 263.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 252.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 235.1969 Tm (String reversal) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 221.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 210.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (        String s = "hello";) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (        StringBuilder sb = new StringBuilder\(s\);) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (        System.out.println\(sb.reverse\(\).toString\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 166.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 155.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 138.1969 Tm (Check if a string is a palindrome) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 124.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 113.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 102.1969 Tm (        String s="madam";) Tj T* ET
+BT 1 0 0 1 42.51969 91.19685 Tm (        String r=new StringBuilder\(s\).reverse\(\).toString\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 80.19685 Tm (        System.out.println\(s.equals\(r\) ? "Palindrome" : "Not Palindrome"\);) Tj T* ET
+BT 1 0 0 1 42.51969 69.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 58.19685 Tm (}) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+32 0 obj
+<<
+/Length 5527
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (Count vowels and consonants in a string) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 771.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 760.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 749.1969 Tm (        String s="Interview Prep";) Tj T* ET
+BT 1 0 0 1 42.51969 738.1969 Tm (        s=s.toLowerCase\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 727.1969 Tm (        int v=0,c=0;) Tj T* ET
+BT 1 0 0 1 42.51969 716.1969 Tm (        for\(char ch: s.toCharArray\(\)\){) Tj T* ET
+BT 1 0 0 1 42.51969 705.1969 Tm (            if\(ch>='a' && ch<='z'\){) Tj T* ET
+BT 1 0 0 1 42.51969 694.1969 Tm (                if\("aeiou".indexOf\(ch\)>=0\) v++; else c++;) Tj T* ET
+BT 1 0 0 1 42.51969 683.1969 Tm (            }) Tj T* ET
+BT 1 0 0 1 42.51969 672.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 661.1969 Tm (        System.out.println\("Vowels="+v+", Consonants="+c\);) Tj T* ET
+BT 1 0 0 1 42.51969 650.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 639.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 622.1969 Tm (Remove duplicate characters from string) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 608.1969 Tm (import java.util.LinkedHashSet;) Tj T* ET
+BT 1 0 0 1 42.51969 597.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 586.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 575.1969 Tm (        String s="programming";) Tj T* ET
+BT 1 0 0 1 42.51969 564.1969 Tm (        java.util.Set<Character> set=new LinkedHashSet<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 553.1969 Tm (        StringBuilder sb=new StringBuilder\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 542.1969 Tm (        for\(char ch: s.toCharArray\(\)\) if\(set.add\(ch\)\) sb.append\(ch\);) Tj T* ET
+BT 1 0 0 1 42.51969 531.1969 Tm (        System.out.println\(sb.toString\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 520.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 509.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 492.1969 Tm (Find first non-repeated character in string) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 478.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 467.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 456.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 445.1969 Tm (        String s="swiss";) Tj T* ET
+BT 1 0 0 1 42.51969 434.1969 Tm (        Map<Character,Integer> map=new LinkedHashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 423.1969 Tm (        for\(char ch: s.toCharArray\(\)\) map.put\(ch, map.getOrDefault\(ch,0\)+1\);) Tj T* ET
+BT 1 0 0 1 42.51969 412.1969 Tm (        for\(Map.Entry<Character,Integer> e: map.entrySet\(\)\)) Tj T* ET
+BT 1 0 0 1 42.51969 401.1969 Tm (            if\(e.getValue\(\)==1\){ System.out.println\(e.getKey\(\)\); return; }) Tj T* ET
+BT 1 0 0 1 42.51969 390.1969 Tm (        System.out.println\("None"\);) Tj T* ET
+BT 1 0 0 1 42.51969 379.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 368.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 351.1969 Tm (Check anagram strings) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 337.1969 Tm (import java.util.Arrays;) Tj T* ET
+BT 1 0 0 1 42.51969 326.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 315.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 304.1969 Tm (        String a="listen", b="silent";) Tj T* ET
+BT 1 0 0 1 42.51969 293.1969 Tm (        char[] x=a.replaceAll\("\\\\s",""\).toLowerCase\(\).toCharArray\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 282.1969 Tm (        char[] y=b.replaceAll\("\\\\s",""\).toLowerCase\(\).toCharArray\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 271.1969 Tm (        Arrays.sort\(x\); Arrays.sort\(y\);) Tj T* ET
+BT 1 0 0 1 42.51969 260.1969 Tm (        System.out.println\(java.util.Arrays.equals\(x,y\) ? "Anagram" : "Not Anagram"\);) Tj T* ET
+BT 1 0 0 1 42.51969 249.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 238.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 221.1969 Tm (Find substring in a string \(without contains\(\)\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 207.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 196.1969 Tm (    static boolean contains\(String s, String sub\){) Tj T* ET
+BT 1 0 0 1 42.51969 185.1969 Tm (        for\(int i=0;i+sub.length\(\)<=s.length\(\);i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 174.1969 Tm (            int j=0;) Tj T* ET
+BT 1 0 0 1 42.51969 163.1969 Tm (            while\(j<sub.length\(\) && s.charAt\(i+j\)==sub.charAt\(j\)\) j++;) Tj T* ET
+BT 1 0 0 1 42.51969 152.1969 Tm (            if\(j==sub.length\(\)\) return true;) Tj T* ET
+BT 1 0 0 1 42.51969 141.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 130.1969 Tm (        return false;) Tj T* ET
+BT 1 0 0 1 42.51969 119.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 108.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 97.19685 Tm (        System.out.println\(contains\("helloworld","world"\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 86.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 75.19685 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 58.19685 Tm (Class and Object demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+36 0 obj
+<<
+/Length 5313
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (class Person {) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (    String name; int age;) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (    void introduce\(\){ System.out.println\(name + ", " + age\); }) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 730.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 719.1969 Tm (        Person p=new Person\(\); p.name="Alice"; p.age=25; p.introduce\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 708.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 697.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 680.1969 Tm (Constructor demo \(default, parameterized, copy\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 666.1969 Tm (class Box {) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (    int w,h;) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (    Box\(\){ this.w=1; this.h=1; }) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (    Box\(int w,int h\){ this.w=w; this.h=h; }) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (    Box\(Box b\){ this.w=b.w; this.h=b.h; }) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (    int area\(\){ return w*h; }) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 567.1969 Tm (        Box a=new Box\(\), b=new Box\(2,3\), c=new Box\(b\);) Tj T* ET
+BT 1 0 0 1 42.51969 556.1969 Tm (        System.out.println\(a.area\(\)+" "+b.area\(\)+" "+c.area\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 545.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 534.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 517.1969 Tm (Method overloading & overriding) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 503.1969 Tm (class Calc {) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (    int add\(int a,int b\){ return a+b; }) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (    int add\(int a,int b,int c\){ return a+b+c; } // overloading) Tj T* ET
+BT 1 0 0 1 42.51969 470.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 459.1969 Tm (class AdvCalc extends Calc {) Tj T* ET
+BT 1 0 0 1 42.51969 448.1969 Tm (    @Override int add\(int a,int b\){ return super.add\(a,b\)+1; } // overriding) Tj T* ET
+BT 1 0 0 1 42.51969 437.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 426.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 415.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 404.1969 Tm (        Calc c=new Calc\(\); AdvCalc ac=new AdvCalc\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 393.1969 Tm (        System.out.println\(c.add\(1,2\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 382.1969 Tm (        System.out.println\(ac.add\(1,2\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 371.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 360.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 343.1969 Tm (Inheritance example \(single, multilevel, hierarchical\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 329.1969 Tm (class A { void f\(\){ System.out.println\("A"\); } }) Tj T* ET
+BT 1 0 0 1 42.51969 318.1969 Tm (class B extends A { void g\(\){ System.out.println\("B"\); } } // single) Tj T* ET
+BT 1 0 0 1 42.51969 307.1969 Tm (class C extends B { void h\(\){ System.out.println\("C"\); } } // multilevel) Tj T* ET
+BT 1 0 0 1 42.51969 296.1969 Tm (class D extends A { void i\(\){ System.out.println\("D"\); } } // hierarchical) Tj T* ET
+BT 1 0 0 1 42.51969 285.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 274.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 263.1969 Tm (        new C\(\).f\(\); new C\(\).g\(\); new C\(\).h\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 252.1969 Tm (        new D\(\).f\(\); new D\(\).i\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 241.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 230.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 213.1969 Tm (Abstract class program) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 199.1969 Tm (abstract class Shape { abstract double area\(\); }) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (class Circle extends Shape {) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (    double r; Circle\(double r\){ this.r=r; }) Tj T* ET
+BT 1 0 0 1 42.51969 166.1969 Tm (    double area\(\){ return Math.PI*r*r; }) Tj T* ET
+BT 1 0 0 1 42.51969 155.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 144.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 133.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 122.1969 Tm (        Shape s = new Circle\(2.0\);) Tj T* ET
+BT 1 0 0 1 42.51969 111.1969 Tm (        System.out.println\(s.area\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 100.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 89.19685 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 72.19685 Tm (Interface example) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 58.19685 Tm (interface Drawable { void draw\(\); }) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+40 0 obj
+<<
+/Length 5185
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (class Square implements Drawable {) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (    public void draw\(\){ System.out.println\("Drawing square"\); }) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 730.1969 Tm (        Drawable d = new Square\(\); d.draw\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 719.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 708.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 691.1969 Tm (Encapsulation \(getters & setters\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 677.1969 Tm (class Employee {) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (    private int id; private String name;) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (    public int getId\(\){ return id; }) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (    public void setId\(int id\){ this.id = id; }) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (    public String getName\(\){ return name; }) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (    public void setName\(String name\){ this.name = name; }) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (        Employee e=new Employee\(\); e.setId\(1\); e.setName\("Bob"\);) Tj T* ET
+BT 1 0 0 1 42.51969 567.1969 Tm (        System.out.println\(e.getId\(\)+": "+e.getName\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 556.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 545.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 528.1969 Tm (Polymorphism demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 514.1969 Tm (class Animal { void sound\(\){ System.out.println\("some sound"\); } }) Tj T* ET
+BT 1 0 0 1 42.51969 503.1969 Tm (class Dog extends Animal { void sound\(\){ System.out.println\("bark"\); } }) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (class Cat extends Animal { void sound\(\){ System.out.println\("meow"\); } }) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 470.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 459.1969 Tm (        Animal a=new Dog\(\); a.sound\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 448.1969 Tm (        a=new Cat\(\); a.sound\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 437.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 426.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 409.1969 Tm (Static keyword demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 395.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 384.1969 Tm (    static int count=0;) Tj T* ET
+BT 1 0 0 1 42.51969 373.1969 Tm (    public Main\(\){ count++; }) Tj T* ET
+BT 1 0 0 1 42.51969 362.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 351.1969 Tm (        new Main\(\); new Main\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 340.1969 Tm (        System.out.println\(Main.count\);) Tj T* ET
+BT 1 0 0 1 42.51969 329.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 318.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 301.1969 Tm (this and super keyword usage) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 287.1969 Tm (class Base {) Tj T* ET
+BT 1 0 0 1 42.51969 276.1969 Tm (    int x=10;) Tj T* ET
+BT 1 0 0 1 42.51969 265.1969 Tm (    Base\(int x\){ this.x = x; }) Tj T* ET
+BT 1 0 0 1 42.51969 254.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 243.1969 Tm (class Derived extends Base {) Tj T* ET
+BT 1 0 0 1 42.51969 232.1969 Tm (    int x=20;) Tj T* ET
+BT 1 0 0 1 42.51969 221.1969 Tm (    Derived\(\){ super\(5\); System.out.println\(this.x + ", " + super.x\); }) Tj T* ET
+BT 1 0 0 1 42.51969 210.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (public class Main { public static void main\(String[] args\){ new Derived\(\); } }) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 182.1969 Tm (Try\226catch\226finally example) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 168.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 157.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 146.1969 Tm (        try{) Tj T* ET
+BT 1 0 0 1 42.51969 135.1969 Tm (            int x = 10/0;) Tj T* ET
+BT 1 0 0 1 42.51969 124.1969 Tm (        }catch\(ArithmeticException e\){) Tj T* ET
+BT 1 0 0 1 42.51969 113.1969 Tm (            System.out.println\("Cannot divide by zero"\);) Tj T* ET
+BT 1 0 0 1 42.51969 102.1969 Tm (        }finally{) Tj T* ET
+BT 1 0 0 1 42.51969 91.19685 Tm (            System.out.println\("Finally always runs"\);) Tj T* ET
+BT 1 0 0 1 42.51969 80.19685 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 69.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 58.19685 Tm (}) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+44 0 obj
+<<
+/Length 5389
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (Throw and throws usage) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 771.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 760.1969 Tm (    static int div\(int a,int b\) throws ArithmeticException {) Tj T* ET
+BT 1 0 0 1 42.51969 749.1969 Tm (        if\(b==0\) throw new ArithmeticException\("b cannot be zero"\);) Tj T* ET
+BT 1 0 0 1 42.51969 738.1969 Tm (        return a/b;) Tj T* ET
+BT 1 0 0 1 42.51969 727.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 716.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 705.1969 Tm (        System.out.println\(div\(10,2\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 694.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 683.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 666.1969 Tm (Custom exception program) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 652.1969 Tm (class InvalidAgeException extends Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 641.1969 Tm (    InvalidAgeException\(String msg\){ super\(msg\); }) Tj T* ET
+BT 1 0 0 1 42.51969 630.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 619.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 608.1969 Tm (    static void vote\(int age\) throws InvalidAgeException {) Tj T* ET
+BT 1 0 0 1 42.51969 597.1969 Tm (        if\(age<18\) throw new InvalidAgeException\("Underage"\);) Tj T* ET
+BT 1 0 0 1 42.51969 586.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 575.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 564.1969 Tm (        try{ vote\(16\); }catch\(Exception e\){ System.out.println\(e.getMessage\(\)\); }) Tj T* ET
+BT 1 0 0 1 42.51969 553.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 542.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 525.1969 Tm (Read from a file) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 511.1969 Tm (import java.io.*;) Tj T* ET
+BT 1 0 0 1 42.51969 500.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 489.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 478.1969 Tm (        try\(BufferedReader br = new BufferedReader\(new FileReader\("input.txt"\)\)\){) Tj T* ET
+BT 1 0 0 1 42.51969 467.1969 Tm (            String line; while\(\(line=br.readLine\(\)\)!=null\) System.out.println\(line\);) Tj T* ET
+BT 1 0 0 1 42.51969 456.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 445.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 434.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 417.1969 Tm (Write to a file) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 403.1969 Tm (import java.io.*;) Tj T* ET
+BT 1 0 0 1 42.51969 392.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 381.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 370.1969 Tm (        try\(BufferedWriter bw = new BufferedWriter\(new FileWriter\("output.txt"\)\)\){) Tj T* ET
+BT 1 0 0 1 42.51969 359.1969 Tm (            bw.write\("Hello file"\);) Tj T* ET
+BT 1 0 0 1 42.51969 348.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 337.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 326.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 309.1969 Tm (Count words in a file) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 295.1969 Tm (import java.io.*;) Tj T* ET
+BT 1 0 0 1 42.51969 284.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 273.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 262.1969 Tm (        int words=0;) Tj T* ET
+BT 1 0 0 1 42.51969 251.1969 Tm (        try\(BufferedReader br = new BufferedReader\(new FileReader\("input.txt"\)\)\){) Tj T* ET
+BT 1 0 0 1 42.51969 240.1969 Tm (            String line;) Tj T* ET
+BT 1 0 0 1 42.51969 229.1969 Tm (            while\(\(line=br.readLine\(\)\)!=null\){) Tj T* ET
+BT 1 0 0 1 42.51969 218.1969 Tm (                String[] parts=line.trim\(\).split\("\\\\s+"\);) Tj T* ET
+BT 1 0 0 1 42.51969 207.1969 Tm (                if\(parts.length==1 && parts[0].isEmpty\(\)\) continue;) Tj T* ET
+BT 1 0 0 1 42.51969 196.1969 Tm (                words += parts.length;) Tj T* ET
+BT 1 0 0 1 42.51969 185.1969 Tm (            }) Tj T* ET
+BT 1 0 0 1 42.51969 174.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 163.1969 Tm (        System.out.println\(words\);) Tj T* ET
+BT 1 0 0 1 42.51969 152.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 141.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 124.1969 Tm (Copy content of one file to another) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 110.1969 Tm (import java.io.*;) Tj T* ET
+BT 1 0 0 1 42.51969 99.19685 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 88.19685 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 77.19685 Tm (        try\(BufferedInputStream in = new BufferedInputStream\(new FileInputStream\("in.txt"\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 66.19685 Tm (            BufferedOutputStream out = new BufferedOutputStream\(new FileOutputStream\("out.txt"\)\)\){) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+48 0 obj
+<<
+/Length 5293
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (            byte[] buf = new byte[4096]; int len;) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (            while\(\(len=in.read\(buf\)\)!=-1\) out.write\(buf,0,len\);) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 724.1969 Tm (ArrayList demo \(add, remove, iterate\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 710.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        List<String> list=new ArrayList<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (        list.add\("a"\); list.add\("b"\); list.remove\("a"\);) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (        for\(String s: list\) System.out.println\(s\);) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 616.1969 Tm (LinkedList demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 602.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 591.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 580.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 569.1969 Tm (        LinkedList<Integer> q=new LinkedList<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (        q.add\(1\); q.addFirst\(0\); q.addLast\(2\);) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (        System.out.println\(q\);) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 525.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 508.1969 Tm (HashSet & TreeSet demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 494.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 483.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 472.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 461.1969 Tm (        Set<Integer> hs=new HashSet<>\(\); hs.add\(3\); hs.add\(1\); hs.add\(3\);) Tj T* ET
+BT 1 0 0 1 42.51969 450.1969 Tm (        System.out.println\(hs\);) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (        Set<Integer> ts=new TreeSet<>\(hs\);) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (        System.out.println\(ts\);) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 389.1969 Tm (HashMap & TreeMap demo) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 375.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 364.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 353.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 342.1969 Tm (        Map<String,Integer> map=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 331.1969 Tm (        map.put\("a",1\); map.put\("b",2\);) Tj T* ET
+BT 1 0 0 1 42.51969 320.1969 Tm (        System.out.println\(map\);) Tj T* ET
+BT 1 0 0 1 42.51969 309.1969 Tm (        Map<String,Integer> tmap=new TreeMap<>\(map\);) Tj T* ET
+BT 1 0 0 1 42.51969 298.1969 Tm (        System.out.println\(tmap\);) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 276.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 259.1969 Tm (Iterate through HashMap \(entrySet, keySet, values\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 245.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 234.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 223.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 212.1969 Tm (        Map<String,Integer> map=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 201.1969 Tm (        map.put\("x",10\); map.put\("y",20\);) Tj T* ET
+BT 1 0 0 1 42.51969 190.1969 Tm (        for\(Map.Entry<String,Integer> e: map.entrySet\(\)\) System.out.println\(e.getKey\(\)+"="+e.getValue\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 179.1969 Tm (        for\(String k: map.keySet\(\)\) System.out.println\(k\);) Tj T* ET
+BT 1 0 0 1 42.51969 168.1969 Tm (        for\(Integer v: map.values\(\)\) System.out.println\(v\);) Tj T* ET
+BT 1 0 0 1 42.51969 157.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 146.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 129.1969 Tm (Sort elements using Collections.sort\(\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 115.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 104.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 93.19685 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 82.19685 Tm (        List<Integer> list=Arrays.asList\(5,3,1,4,2\);) Tj T* ET
+BT 1 0 0 1 42.51969 71.19685 Tm (        Collections.sort\(list\);) Tj T* ET
+BT 1 0 0 1 42.51969 60.19685 Tm (        System.out.println\(list\);) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+52 0 obj
+<<
+/Length 5533
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (        Collections.sort\(list, Collections.reverseOrder\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (        System.out.println\(list\);) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 735.1969 Tm (Convert Array to List and vice versa) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 721.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 710.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (        String[] a = {"a","b","c"};) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        List<String> list = new ArrayList<>\(Arrays.asList\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (        String[] back = list.toArray\(new String[0]\);) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (        System.out.println\(list + " | " + java.util.Arrays.toString\(back\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 616.1969 Tm (Frequency of elements using HashMap) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 602.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 591.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 580.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 569.1969 Tm (        int[] a={1,2,2,3,3,3};) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (        Map<Integer,Integer> freq=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (        for\(int v: a\) freq.put\(v, freq.getOrDefault\(v,0\)+1\);) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (        System.out.println\(freq\);) Tj T* ET
+BT 1 0 0 1 42.51969 525.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 514.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 497.1969 Tm (Remove duplicates from list using Set) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 483.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 472.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 461.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 450.1969 Tm (        List<Integer> list = new ArrayList<>\(Arrays.asList\(1,2,2,3,3,4\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (        List<Integer> unique = new ArrayList<>\(new LinkedHashSet<>\(list\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (        System.out.println\(unique\);) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 389.1969 Tm (Reverse words in a sentence) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 375.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 364.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 353.1969 Tm (        String s="Java is fun";) Tj T* ET
+BT 1 0 0 1 42.51969 342.1969 Tm (        String[] parts=s.split\("\\\\s+"\);) Tj T* ET
+BT 1 0 0 1 42.51969 331.1969 Tm (        StringBuilder sb=new StringBuilder\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 320.1969 Tm (        for\(int i=parts.length-1;i>=0;i--\) sb.append\(parts[i]\).append\(i==0?"":" "\);) Tj T* ET
+BT 1 0 0 1 42.51969 309.1969 Tm (        System.out.println\(sb.toString\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 298.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 270.1969 Tm (Check balanced parentheses using Stack) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 256.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 245.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 234.1969 Tm (    static boolean balanced\(String s\){) Tj T* ET
+BT 1 0 0 1 42.51969 223.1969 Tm (        Map<Character,Character> m=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 212.1969 Tm (        m.put\('\)', '\('\); m.put\(']', '['\); m.put\('}', '{'\);) Tj T* ET
+BT 1 0 0 1 42.51969 201.1969 Tm (        Deque<Character> st=new ArrayDeque<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 190.1969 Tm (        for\(char ch: s.toCharArray\(\)\){) Tj T* ET
+BT 1 0 0 1 42.51969 179.1969 Tm (            if\(m.containsValue\(ch\)\) st.push\(ch\);) Tj T* ET
+BT 1 0 0 1 42.51969 168.1969 Tm (            else if\(m.containsKey\(ch\)\) if\(st.isEmpty\(\) || st.pop\(\)!=m.get\(ch\)\) return false;) Tj T* ET
+BT 1 0 0 1 42.51969 157.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 146.1969 Tm (        return st.isEmpty\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 135.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 124.1969 Tm (    public static void main\(String[] args\) { System.out.println\(balanced\("{[\(\)]}"\)\); }) Tj T* ET
+BT 1 0 0 1 42.51969 113.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 96.19685 Tm (Find factorial using recursion) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 82.19685 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 71.19685 Tm (    static long fact\(int n\){ return n<=1 ? 1 : n*fact\(n-1\); }) Tj T* ET
+BT 1 0 0 1 42.51969 60.19685 Tm (    public static void main\(String[] args\) { System.out.println\(fact\(5\)\); }) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+56 0 obj
+<<
+/Length 5137
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 768.1969 Tm (Find nth Fibonacci number using recursion) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 754.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 743.1969 Tm (    static long fib\(int n\){ return n<=1 ? n : fib\(n-1\)+fib\(n-2\); }) Tj T* ET
+BT 1 0 0 1 42.51969 732.1969 Tm (    public static void main\(String[] args\) { System.out.println\(fib\(10\)\); }) Tj T* ET
+BT 1 0 0 1 42.51969 721.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 704.1969 Tm (Binary search implementation) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 690.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 679.1969 Tm (    static int bs\(int[] a,int key\){) Tj T* ET
+BT 1 0 0 1 42.51969 668.1969 Tm (        int l=0,r=a.length-1;) Tj T* ET
+BT 1 0 0 1 42.51969 657.1969 Tm (        while\(l<=r\){) Tj T* ET
+BT 1 0 0 1 42.51969 646.1969 Tm (            int m=l+\(r-l\)/2;) Tj T* ET
+BT 1 0 0 1 42.51969 635.1969 Tm (            if\(a[m]==key\) return m;) Tj T* ET
+BT 1 0 0 1 42.51969 624.1969 Tm (            if\(a[m]<key\) l=m+1; else r=m-1;) Tj T* ET
+BT 1 0 0 1 42.51969 613.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 602.1969 Tm (        return -1;) Tj T* ET
+BT 1 0 0 1 42.51969 591.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 580.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 569.1969 Tm (        int[] a={1,3,5,7,9};) Tj T* ET
+BT 1 0 0 1 42.51969 558.1969 Tm (        System.out.println\(bs\(a,7\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 547.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 519.1969 Tm (Linear search implementation) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 505.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 494.1969 Tm (    static int ls\(int[] a,int key\){) Tj T* ET
+BT 1 0 0 1 42.51969 483.1969 Tm (        for\(int i=0;i<a.length;i++\) if\(a[i]==key\) return i;) Tj T* ET
+BT 1 0 0 1 42.51969 472.1969 Tm (        return -1;) Tj T* ET
+BT 1 0 0 1 42.51969 461.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 450.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (        int[] a={4,2,7,1};) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (        System.out.println\(ls\(a,7\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 389.1969 Tm (Bubble sort, Selection sort, Insertion sort) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 375.1969 Tm (import java.util.Arrays;) Tj T* ET
+BT 1 0 0 1 42.51969 364.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 353.1969 Tm (    static void bubble\(int[] a\){) Tj T* ET
+BT 1 0 0 1 42.51969 342.1969 Tm (        for\(int i=0;i<a.length-1;i++\)) Tj T* ET
+BT 1 0 0 1 42.51969 331.1969 Tm (            for\(int j=0;j<a.length-1-i;j++\)) Tj T* ET
+BT 1 0 0 1 42.51969 320.1969 Tm (                if\(a[j]>a[j+1]\){ int t=a[j]; a[j]=a[j+1]; a[j+1]=t; }) Tj T* ET
+BT 1 0 0 1 42.51969 309.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 298.1969 Tm (    static void selection\(int[] a\){) Tj T* ET
+BT 1 0 0 1 42.51969 287.1969 Tm (        for\(int i=0;i<a.length-1;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 276.1969 Tm (            int min=i;) Tj T* ET
+BT 1 0 0 1 42.51969 265.1969 Tm (            for\(int j=i+1;j<a.length;j++\) if\(a[j]<a[min]\) min=j;) Tj T* ET
+BT 1 0 0 1 42.51969 254.1969 Tm (            int t=a[i]; a[i]=a[min]; a[min]=t;) Tj T* ET
+BT 1 0 0 1 42.51969 243.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 232.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 221.1969 Tm (    static void insertion\(int[] a\){) Tj T* ET
+BT 1 0 0 1 42.51969 210.1969 Tm (        for\(int i=1;i<a.length;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (            int key=a[i], j=i-1;) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (            while\(j>=0 && a[j]>key\){ a[j+1]=a[j]; j--; }) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (            a[j+1]=key;) Tj T* ET
+BT 1 0 0 1 42.51969 166.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 155.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 144.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 133.1969 Tm (        int[] a={5,1,4,2,8};) Tj T* ET
+BT 1 0 0 1 42.51969 122.1969 Tm (        bubble\(a.clone\(\)\); selection\(a.clone\(\)\); insertion\(a.clone\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 111.1969 Tm (        System.out.println\(Arrays.toString\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 100.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 89.19685 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 72.19685 Tm (Quick sort, Merge sort) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 58.19685 Tm (import java.util.Arrays;) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+60 0 obj
+<<
+/Length 5436
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (    static void quick\(int[] a,int l,int r\){) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (        if\(l>=r\) return;) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (        int i=l,j=r,p=a[l+\(r-l\)/2];) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (        while\(i<=j\){) Tj T* ET
+BT 1 0 0 1 42.51969 730.1969 Tm (            while\(a[i]<p\) i++;) Tj T* ET
+BT 1 0 0 1 42.51969 719.1969 Tm (            while\(a[j]>p\) j--;) Tj T* ET
+BT 1 0 0 1 42.51969 708.1969 Tm (            if\(i<=j\){ int t=a[i]; a[i]=a[j]; a[j]=t; i++; j--; }) Tj T* ET
+BT 1 0 0 1 42.51969 697.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 686.1969 Tm (        if\(l<j\) quick\(a,l,j\);) Tj T* ET
+BT 1 0 0 1 42.51969 675.1969 Tm (        if\(i<r\) quick\(a,i,r\);) Tj T* ET
+BT 1 0 0 1 42.51969 664.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 653.1969 Tm (    static void mergeSort\(int[] a,int l,int r\){) Tj T* ET
+BT 1 0 0 1 42.51969 642.1969 Tm (        if\(l>=r\) return;) Tj T* ET
+BT 1 0 0 1 42.51969 631.1969 Tm (        int m=\(l+r\)/2;) Tj T* ET
+BT 1 0 0 1 42.51969 620.1969 Tm (        mergeSort\(a,l,m\); mergeSort\(a,m+1,r\);) Tj T* ET
+BT 1 0 0 1 42.51969 609.1969 Tm (        int[] tmp=new int[r-l+1]; int i=l,j=m+1,k=0;) Tj T* ET
+BT 1 0 0 1 42.51969 598.1969 Tm (        while\(i<=m && j<=r\) tmp[k++]= a[i]<=a[j]? a[i++]:a[j++];) Tj T* ET
+BT 1 0 0 1 42.51969 587.1969 Tm (        while\(i<=m\) tmp[k++]=a[i++];) Tj T* ET
+BT 1 0 0 1 42.51969 576.1969 Tm (        while\(j<=r\) tmp[k++]=a[j++];) Tj T* ET
+BT 1 0 0 1 42.51969 565.1969 Tm (        System.arraycopy\(tmp,0,a,l,tmp.length\);) Tj T* ET
+BT 1 0 0 1 42.51969 554.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 543.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 532.1969 Tm (        int[] a={5,2,9,1,5,6};) Tj T* ET
+BT 1 0 0 1 42.51969 521.1969 Tm (        quick\(a,0,a.length-1\);) Tj T* ET
+BT 1 0 0 1 42.51969 510.1969 Tm (        mergeSort\(a,0,a.length-1\);) Tj T* ET
+BT 1 0 0 1 42.51969 499.1969 Tm (        System.out.println\(Arrays.toString\(a\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 488.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 477.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 460.1969 Tm (Count occurrences of each word in a string) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 446.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 435.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 424.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 413.1969 Tm (        String s="to be or not to be";) Tj T* ET
+BT 1 0 0 1 42.51969 402.1969 Tm (        Map<String,Integer> map=new LinkedHashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 391.1969 Tm (        for\(String w: s.trim\(\).toLowerCase\(\).split\("\\\\s+"\)\)) Tj T* ET
+BT 1 0 0 1 42.51969 380.1969 Tm (            map.put\(w, map.getOrDefault\(w,0\)+1\);) Tj T* ET
+BT 1 0 0 1 42.51969 369.1969 Tm (        System.out.println\(map\);) Tj T* ET
+BT 1 0 0 1 42.51969 358.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 347.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 330.1969 Tm (Find longest substring without repeating characters) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 316.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 305.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 294.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 283.1969 Tm (        String s="abcabcbb";) Tj T* ET
+BT 1 0 0 1 42.51969 272.1969 Tm (        int l=0, best=0; Map<Character,Integer> pos=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 261.1969 Tm (        for\(int r=0;r<s.length\(\);r++\){) Tj T* ET
+BT 1 0 0 1 42.51969 250.1969 Tm (            char c=s.charAt\(r\);) Tj T* ET
+BT 1 0 0 1 42.51969 239.1969 Tm (            if\(pos.containsKey\(c\) && pos.get\(c\)>=l\) l=pos.get\(c\)+1;) Tj T* ET
+BT 1 0 0 1 42.51969 228.1969 Tm (            pos.put\(c,r\); best=Math.max\(best, r-l+1\);) Tj T* ET
+BT 1 0 0 1 42.51969 217.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 206.1969 Tm (        System.out.println\(best\);) Tj T* ET
+BT 1 0 0 1 42.51969 195.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 184.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 167.1969 Tm (LRU Cache implementation using LinkedHashMap) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 153.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 142.1969 Tm (class LRU<K,V> extends LinkedHashMap<K,V>{) Tj T* ET
+BT 1 0 0 1 42.51969 131.1969 Tm (    private final int cap;) Tj T* ET
+BT 1 0 0 1 42.51969 120.1969 Tm (    LRU\(int cap\){ super\(cap, 0.75f, true\); this.cap=cap; }) Tj T* ET
+BT 1 0 0 1 42.51969 109.1969 Tm (    protected boolean removeEldestEntry\(Map.Entry<K,V> e\){ return size\(\)>cap; }) Tj T* ET
+BT 1 0 0 1 42.51969 98.19685 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 87.19685 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 76.19685 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 65.19685 Tm (        LRU<Integer,Integer> cache=new LRU<>\(2\);) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+64 0 obj
+<<
+/Length 5591
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (        cache.put\(1,1\); cache.put\(2,2\); cache.get\(1\); cache.put\(3,3\);) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (        System.out.println\(cache.keySet\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 735.1969 Tm (Producer\226Consumer problem using Threads) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 721.1969 Tm (import java.util.concurrent.ArrayBlockingQueue;) Tj T* ET
+BT 1 0 0 1 42.51969 710.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (        ArrayBlockingQueue<Integer> q = new ArrayBlockingQueue<>\(2\);) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (        Thread producer = new Thread\(\(\) -> {) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (            try{) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (                for\(int i=1;i<=5;i++\){ q.put\(i\); System.out.println\("Produced "+i\); }) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (            }catch\(Exception ignored\){}) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (        }\);) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (        Thread consumer = new Thread\(\(\) -> {) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (            try{) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (                for\(int i=1;i<=5;i++\){ System.out.println\("Consumed "+q.take\(\)\); }) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (            }catch\(Exception ignored\){}) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (        }\);) Tj T* ET
+BT 1 0 0 1 42.51969 567.1969 Tm (        producer.start\(\); consumer.start\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 556.1969 Tm (        producer.join\(\); consumer.join\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 545.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 534.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 517.1969 Tm (Deadlock example in Java) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 503.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (        final Object A=new Object\(\); final Object B=new Object\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 470.1969 Tm (        Thread t1=new Thread\(\(\)->{ synchronized\(A\){ try{Thread.sleep\(100\);}catch\(Exception e\){} synchronized\(B) Tj T* ET
+BT 1 0 0 1 42.51969 459.1969 Tm (\){} } }\);) Tj T* ET
+BT 1 0 0 1 42.51969 448.1969 Tm (        Thread t2=new Thread\(\(\)->{ synchronized\(B\){ try{Thread.sleep\(100\);}catch\(Exception e\){} synchronized\(A) Tj T* ET
+BT 1 0 0 1 42.51969 437.1969 Tm (\){} } }\);) Tj T* ET
+BT 1 0 0 1 42.51969 426.1969 Tm (        t1.start\(\); t2.start\(\); t1.join\(\); t2.join\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 415.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 404.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 387.1969 Tm (Singleton design pattern implementation) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 373.1969 Tm (class Singleton {) Tj T* ET
+BT 1 0 0 1 42.51969 362.1969 Tm (    private static volatile Singleton instance;) Tj T* ET
+BT 1 0 0 1 42.51969 351.1969 Tm (    private Singleton\(\){}) Tj T* ET
+BT 1 0 0 1 42.51969 340.1969 Tm (    public static Singleton getInstance\(\){) Tj T* ET
+BT 1 0 0 1 42.51969 329.1969 Tm (        if\(instance==null\){) Tj T* ET
+BT 1 0 0 1 42.51969 318.1969 Tm (            synchronized\(Singleton.class\){) Tj T* ET
+BT 1 0 0 1 42.51969 307.1969 Tm (                if\(instance==null\) instance=new Singleton\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 296.1969 Tm (            }) Tj T* ET
+BT 1 0 0 1 42.51969 285.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 274.1969 Tm (        return instance;) Tj T* ET
+BT 1 0 0 1 42.51969 263.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 252.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 241.1969 Tm (public class Main { public static void main\(String[] args\){ System.out.println\(Singleton.getInstance\(\)\); } }) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 224.1969 Tm (Create thread using Thread class) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 210.1969 Tm (public class Main extends Thread {) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (    public void run\(\){ System.out.println\("Hello from Thread"\); }) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (    public static void main\(String[] args\){ new Main\(\).start\(\); }) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 160.1969 Tm (Create thread using Runnable interface) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 146.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 135.1969 Tm (    public static void main\(String[] args\){) Tj T* ET
+BT 1 0 0 1 42.51969 124.1969 Tm (        Runnable r = \(\) -> System.out.println\("Hello from Runnable"\);) Tj T* ET
+BT 1 0 0 1 42.51969 113.1969 Tm (        new Thread\(r\).start\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 102.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 91.19685 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 74.19685 Tm (Synchronization example) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 60.19685 Tm (class Counter {) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+68 0 obj
+<<
+/Length 5528
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (    int c=0;) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (    synchronized void inc\(\){ c++; }) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 730.1969 Tm (        Counter ctr=new Counter\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 719.1969 Tm (        Thread t1=new Thread\(\(\)->{ for\(int i=0;i<1000;i++\) ctr.inc\(\); }\);) Tj T* ET
+BT 1 0 0 1 42.51969 708.1969 Tm (        Thread t2=new Thread\(\(\)->{ for\(int i=0;i<1000;i++\) ctr.inc\(\); }\);) Tj T* ET
+BT 1 0 0 1 42.51969 697.1969 Tm (        t1.start\(\); t2.start\(\); t1.join\(\); t2.join\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 686.1969 Tm (        System.out.println\(ctr.c\);) Tj T* ET
+BT 1 0 0 1 42.51969 675.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 664.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 647.1969 Tm (Inter-thread communication \(wait\(\), notify\(\)\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 633.1969 Tm (class Shared {) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (    private int data; private boolean ready=false;) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (    synchronized void produce\(int v\) throws InterruptedException {) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (        while\(ready\) wait\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (        data=v; ready=true; notify\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 567.1969 Tm (    synchronized int consume\(\) throws InterruptedException {) Tj T* ET
+BT 1 0 0 1 42.51969 556.1969 Tm (        while\(!ready\) wait\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 545.1969 Tm (        ready=false; notify\(\); return data;) Tj T* ET
+BT 1 0 0 1 42.51969 534.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 523.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 512.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 501.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 490.1969 Tm (        Shared s=new Shared\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 479.1969 Tm (        Thread p=new Thread\(\(\)->{ try{ s.produce\(42\); }catch\(Exception e\){} }\);) Tj T* ET
+BT 1 0 0 1 42.51969 468.1969 Tm (        Thread c=new Thread\(\(\)->{ try{ System.out.println\(s.consume\(\)\); }catch\(Exception e\){} }\);) Tj T* ET
+BT 1 0 0 1 42.51969 457.1969 Tm (        p.start\(\); c.start\(\); p.join\(\); c.join\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 446.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 435.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 418.1969 Tm (Thread pool example \(ExecutorService\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 404.1969 Tm (import java.util.concurrent.*;) Tj T* ET
+BT 1 0 0 1 42.51969 393.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 382.1969 Tm (    public static void main\(String[] args\) throws Exception {) Tj T* ET
+BT 1 0 0 1 42.51969 371.1969 Tm (        ExecutorService pool=Executors.newFixedThreadPool\(2\);) Tj T* ET
+BT 1 0 0 1 42.51969 360.1969 Tm (        for\(int i=1;i<=4;i++\){) Tj T* ET
+BT 1 0 0 1 42.51969 349.1969 Tm (            final int id=i;) Tj T* ET
+BT 1 0 0 1 42.51969 338.1969 Tm (            pool.submit\(\(\)-> System.out.println\("Task "+id+" by "+Thread.currentThread\(\).getName\(\)\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 327.1969 Tm (        }) Tj T* ET
+BT 1 0 0 1 42.51969 316.1969 Tm (        pool.shutdown\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 305.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 294.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 277.1969 Tm (Lambda expressions example) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 263.1969 Tm (interface Op { int run\(int a,int b\); }) Tj T* ET
+BT 1 0 0 1 42.51969 252.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 241.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 230.1969 Tm (        Op add=\(a,b\)->a+b;) Tj T* ET
+BT 1 0 0 1 42.51969 219.1969 Tm (        System.out.println\(add.run\(2,3\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 208.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 197.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 180.1969 Tm (Functional interfaces \(Predicate, Function, Consumer\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 166.1969 Tm (import java.util.function.*;) Tj T* ET
+BT 1 0 0 1 42.51969 155.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 144.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 133.1969 Tm (        Predicate<Integer> isEven = x -> x%2==0;) Tj T* ET
+BT 1 0 0 1 42.51969 122.1969 Tm (        Function<Integer,Integer> square = x -> x*x;) Tj T* ET
+BT 1 0 0 1 42.51969 111.1969 Tm (        Consumer<Integer> print = System.out::println;) Tj T* ET
+BT 1 0 0 1 42.51969 100.1969 Tm (        if\(isEven.test\(4\)\) print.accept\(square.apply\(4\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 89.19685 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 78.19685 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 61.19685 Tm (Streams API \(filter, map, reduce, collect\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+72 0 obj
+<<
+/Length 5658
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (import java.util.stream.*;) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (        List<Integer> nums=Arrays.asList\(1,2,3,4,5\);) Tj T* ET
+BT 1 0 0 1 42.51969 730.1969 Tm (        int sumSquaresOfEven = nums.stream\(\).filter\(x->x%2==0\).map\(x->x*x\).reduce\(0,Integer::sum\);) Tj T* ET
+BT 1 0 0 1 42.51969 719.1969 Tm (        List<Integer> doubled = nums.stream\(\).map\(x->x*2\).collect\(Collectors.toList\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 708.1969 Tm (        System.out.println\(sumSquaresOfEven + " " + doubled\);) Tj T* ET
+BT 1 0 0 1 42.51969 697.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 686.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 669.1969 Tm (Method references) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 655.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (    static void print\(Integer x\){ System.out.println\(x\); }) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 611.1969 Tm (        List<Integer> list=Arrays.asList\(1,2,3\);) Tj T* ET
+BT 1 0 0 1 42.51969 600.1969 Tm (        list.forEach\(Main::print\);) Tj T* ET
+BT 1 0 0 1 42.51969 589.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 578.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 561.1969 Tm (Optional class usage) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 547.1969 Tm (import java.util.Optional;) Tj T* ET
+BT 1 0 0 1 42.51969 536.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 525.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 514.1969 Tm (        Optional<String> o = Optional.ofNullable\(null\);) Tj T* ET
+BT 1 0 0 1 42.51969 503.1969 Tm (        System.out.println\(o.orElse\("default"\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 492.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 481.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 464.1969 Tm (Library Management System \(mini demo\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 450.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 439.1969 Tm (class Book { String id,title; boolean issued; Book\(String id,String t\){this.id=id;this.title=t;} }) Tj T* ET
+BT 1 0 0 1 42.51969 428.1969 Tm (class Library {) Tj T* ET
+BT 1 0 0 1 42.51969 417.1969 Tm (    Map<String,Book> books=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 406.1969 Tm (    void add\(Book b\){ books.put\(b.id,b\); }) Tj T* ET
+BT 1 0 0 1 42.51969 395.1969 Tm (    boolean issue\(String id\){ Book b=books.get\(id\); if\(b!=null && !b.issued\){ b.issued=true; return true; } re) Tj T* ET
+BT 1 0 0 1 42.51969 384.1969 Tm (turn false; }) Tj T* ET
+BT 1 0 0 1 42.51969 373.1969 Tm (    void list\(\){ books.values\(\).forEach\(b->System.out.println\(b.id+":"+b.title+":"+b.issued\)\); }) Tj T* ET
+BT 1 0 0 1 42.51969 362.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 351.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 340.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 329.1969 Tm (        Library lib=new Library\(\); lib.add\(new Book\("1","Java Basics"\)\); lib.add\(new Book\("2","DSA"\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 318.1969 Tm (        lib.issue\("1"\); lib.list\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 307.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 296.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 279.1969 Tm (Banking System \(deposit, withdraw, balance\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 265.1969 Tm (class Account {) Tj T* ET
+BT 1 0 0 1 42.51969 254.1969 Tm (    private int balance;) Tj T* ET
+BT 1 0 0 1 42.51969 243.1969 Tm (    Account\(int bal\){ this.balance=bal; }) Tj T* ET
+BT 1 0 0 1 42.51969 232.1969 Tm (    synchronized void deposit\(int amt\){ balance+=amt; }) Tj T* ET
+BT 1 0 0 1 42.51969 221.1969 Tm (    synchronized boolean withdraw\(int amt\){ if\(amt<=balance\){ balance-=amt; return true; } return false; }) Tj T* ET
+BT 1 0 0 1 42.51969 210.1969 Tm (    synchronized int balance\(\){ return balance; }) Tj T* ET
+BT 1 0 0 1 42.51969 199.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 188.1969 Tm (public class Main {) Tj T* ET
+BT 1 0 0 1 42.51969 177.1969 Tm (    public static void main\(String[] args\) {) Tj T* ET
+BT 1 0 0 1 42.51969 166.1969 Tm (        Account acc=new Account\(1000\);) Tj T* ET
+BT 1 0 0 1 42.51969 155.1969 Tm (        acc.deposit\(500\); acc.withdraw\(200\);) Tj T* ET
+BT 1 0 0 1 42.51969 144.1969 Tm (        System.out.println\(acc.balance\(\)\);) Tj T* ET
+BT 1 0 0 1 42.51969 133.1969 Tm (    }) Tj T* ET
+BT 1 0 0 1 42.51969 122.1969 Tm (}) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 105.1969 Tm (Employee Management System \(mini\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 91.19685 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 80.19685 Tm (class Employee { int id; String name; Employee\(int id,String n\){this.id=id;this.name=n;} }) Tj T* ET
+BT 1 0 0 1 42.51969 69.19685 Tm (class EMS {) Tj T* ET
+BT 1 0 0 1 42.51969 58.19685 Tm (    Map<Integer,Employee> map=new HashMap<>\(\);) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+76 0 obj
+<<
+/Length 1679
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 785.1969 Tm (    void add\(Employee e\){ map.put\(e.id,e\); }) Tj T* ET
+BT 1 0 0 1 42.51969 774.1969 Tm (    Employee get\(int id\){ return map.get\(id\); }) Tj T* ET
+BT 1 0 0 1 42.51969 763.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 752.1969 Tm (public class Main { public static void main\(String[] args\){ EMS s=new EMS\(\); s.add\(new Employee\(1,"Ana"\)\); Sys) Tj T* ET
+BT 1 0 0 1 42.51969 741.1969 Tm (tem.out.println\(s.get\(1\).name\); } }) Tj T* ET
+BT /F3 12 Tf 14.4 TL ET
+BT 1 0 0 1 42.51969 724.1969 Tm (Student Management System \(mini\)) Tj T* ET
+BT /F2 9 Tf 10.8 TL ET
+BT 1 0 0 1 42.51969 710.1969 Tm (import java.util.*;) Tj T* ET
+BT 1 0 0 1 42.51969 699.1969 Tm (class Student { int id; String name; Student\(int id,String n\){this.id=id;this.name=n;} }) Tj T* ET
+BT 1 0 0 1 42.51969 688.1969 Tm (class SMS {) Tj T* ET
+BT 1 0 0 1 42.51969 677.1969 Tm (    Map<Integer,Student> map=new HashMap<>\(\);) Tj T* ET
+BT 1 0 0 1 42.51969 666.1969 Tm (    void add\(Student s\){ map.put\(s.id,s\); }) Tj T* ET
+BT 1 0 0 1 42.51969 655.1969 Tm (    Student get\(int id\){ return map.get\(id\); }) Tj T* ET
+BT 1 0 0 1 42.51969 644.1969 Tm (}) Tj T* ET
+BT 1 0 0 1 42.51969 633.1969 Tm (public class Main { public static void main\(String[] args\){ SMS s=new SMS\(\); s.add\(new Student\(1,"Max"\)\); Syst) Tj T* ET
+BT 1 0 0 1 42.51969 622.1969 Tm (em.out.println\(s.get\(1\).name\); } }) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 16 Tf
+19.2 TL
+ET
+0.101961 0.101961 0.54902 rg
+BT
+1 0 0 1 484.5716 811.8898 Tm
+(Ajeet Yadav) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+79 0 obj
+<<
+/Length 0
+/Type /Metadata
+/Subtype /XML
+>>
+stream
+
+endstream
+endobj
+81 0 obj
+<<
+/Length 782
+/Type /ObjStm
+/N 59
+/Filter /FlateDecode
+/First 456
+>>
+stream
+xúÌV]k1¸+˚í”◊ÍB NJKH}0ypÌ#íªb_J˙Ô;:9ÕãBªîBÊ4^œ≠F;¬å!Eé¥7‰…)OÅ\
+âc§D>“äB∞§5EüHg§=iºd~eîä≤"—Ãi“†»dC†3ãR–d »∆™DTØPål»*@g…j@õ»öË…:@®≤Yÿ¬£»F|†1StAÇ”Ï»|Z9õãÄ˘l«ı!ë5@óKƒ
+"q÷8$kb]Ëÿ„AÃ 3{4c¿ò@∆®R√R–Â5ykÂÅB æêGC<0LêΩ']û,˘1i–…P¿îM¥¯BäÄ√	”«p!1DË¬Qyê#EëQQ4–ur“›˛¯÷Swµ∫Ô˜‘ùèO√î›Ë>n7{Z:¯|ùMú.KöX2/a^l°ÿB±Ö‚
+≈
+
+
+ä/_(°PB°‹—ÈiVx>S?L{*ÂÓSøŸÆ„3-
+ú¯ÿÃ::}cäxØªÓ˜„”nç#·˝º?ØògÈp°è0ã6∏∑Ñj:`õopÜ––]Ì∆ıM?—≤ª|ƒ†T÷Û√z	∆ªÍn˚Á©®ÓÆ«i5ıh–›ÓVCñë´Ø≥¶ÓlFúiyó;úèÃÀ~–∫XÌ˚Yw˜°¯ﬁO€ıä∫˜√z‹lá{Íælá≥aø}-|^=ˆ˘\‘›<}ùÊmÚf˙eœπ◊_lçã¥€ˆª∑46øß˘h1>l˛Ö˛ˆ˝]amDÔ∞∂’K¨›ˇxãEoƒ´c^÷±˙ﬂééÕ1)«åuÃË™c∆4«ƒs≤éq›1ﬂs, :ñ™éY’ìrÃ &[O∂%9«dìá≠'€íáòcN6y∏zÚp-y»9&õ<\=y∏ñ<‰ìMÆû<∏%1«X6yp=ypKré…&Æ'n…CÃ1/õ<|=y¯ñ<‰ìMæû<|Kré…&_O°%1«ÇlÚı‰ZÚêsL6yÑzÚ-y¸°cx¸Á˝≥»
+endstream
+endobj
+82 0 obj
+<<
+/Length 221
+/Root 3 0 R
+/Info 80 0 R
+/ID [<D78FAF31E013E20917D27601A74FCC6886BE0CFA949A4DADD47D07E9BC087CB5> <D78FAF31E013E20917D27601A74FCC6886BE0CFA949A4DADD47D07E9BC087CB5>]
+/Type /XRef
+/Size 83
+/Index [0 1 2 80]
+/W [1 3 1]
+/Filter /FlateDecode
+>>
+stream
+xú%–;NÇQE·Ω¡* *>AAﬂo∞p
+Ê†ï: `bÁ$úÄ%ÖS∞r &ñ$ˆ4öu˛ÊÀ9+Á6Wí˛RROñÚb≤YôRêÜ1á	ò¥äô8ôÇL[≠óh30YÎZ—rêá9´˜≠ Û∞`›£-Bñ¨ß§-√
+¨ZØÉhk∞%ÎÌ=Z6`”¥£U†
+[÷Ác¥‘a€˙ÈGk@v¨Q#Z⁄∞kÁí∑{∞vÌ;⁄!¡±›˝çvßpfﬂ|D;á∏¥ÔíœÓ@◊æˇäı ~hÍ€,ˇ
+endstream
+endobj
+startxref
+94367
+%%EOF
